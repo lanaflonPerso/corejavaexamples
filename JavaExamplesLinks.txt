@@ -5,3 +5,7 @@ http://www.java-examples.com/
 http://www.fluffycat.com/Java/Basics/
 
 http://www.java2novice.com/
+
+http://leepoint.net/
+
+http://www.digizol.com/2008/07/java-sorting-comparator-vs-comparable.html
