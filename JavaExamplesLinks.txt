@@ -11,3 +11,13 @@ http://leepoint.net/
 http://www.digizol.com/2008/07/java-sorting-comparator-vs-comparable.html
 
 http://xahlee.info/java-a-day/java.html
+
+http://www.jusfortechies.com/java/core-java/static-blocks.php
+
+http://newtechnobuzzz.blogspot.in/ - also nice one
+
+http://www.java-tips.org/java-se-tips-100019/24-java-lang.html
+
+http://tutorials.jenkov.com/ - best for theoretical reading and understanding
+
+http://www.mkyong.com/ - one of the best one, includes android as well

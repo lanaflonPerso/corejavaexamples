@@ -19,6 +19,8 @@ package com.rdayala.basics;
  * 
 */
 
+// [NOTE:]They cannot be inherited, though a derived class can call the base class constructor.
+
 class Student {
 	int studentId;
 	String studentName;
@@ -27,7 +29,6 @@ class Student {
 	 * Constructor is special because its name is the same as the class name.
 	 * You can't have constructors with different names. They must match the classname.
 	 * They do not have return types, not even void and therefore they cannot return values.
-	 * They cannot be inherited, though a derived class can call the base class constructor.
 	 * Constructor is invoked whenever an object of its associated class is created.
 	 * 
 	 */

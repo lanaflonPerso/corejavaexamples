@@ -15,7 +15,8 @@ class B {
 class C extends B {
 	
 	public void printSomething() {
-		System.out.println("C object is created");
+		System.out.println("C object is created");		
+		
 	}
 }
 

@@ -31,7 +31,7 @@ class Prg
     }
     public Prg(int b, int c)
     {
-        // Prg(b); // ERROR : compiler error
+        // Prg(b); // ERROR : compiler error, same reason as above
     	
     	this(b);
         System.out.println("In multiple parameter constructor");
