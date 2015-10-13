@@ -21,3 +21,7 @@ http://www.java-tips.org/java-se-tips-100019/24-java-lang.html
 http://tutorials.jenkov.com/ - best for theoretical reading and understanding
 
 http://www.mkyong.com/ - one of the best one, includes android as well
+
+http://beginnersbook.com/
+
+http://viralpatel.net/blogs/static-import-java-example-tutorial/

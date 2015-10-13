@@ -30,7 +30,35 @@ public class LiteralsExample {
 		
 		Class cls = String.class; // output: class java.lang.String
 		
-		System.out.println("Class Literal : " + cls);
+		System.out.println("String Literal class type : " + cls);
+		
+		byte temperature = -28;
+		System.out.println("Temperature(byte): " + temperature);
+		
+		char driversLicenseClass = 'A';
+		System.out.println("Driver's License Class(char): " + driversLicenseClass);
+		
+		short numberOfStudents = 3428;
+		System.out.println("Number of Students(short): " + numberOfStudents);
+		
+		int daysPassed = 468;
+		System.out.println("Days Passed(int): " + daysPassed);
+		
+		long days = 245885475475L; // use suffix 'L'
+		System.out.println("Days(long): " + days);
+		
+		float PI = 3.14F; // use suffix 'F'
+		System.out.println("PI(float): " + PI);
+		
+		double dValue = 3.14159; // by default, floating value is of type double 
+		System.out.println("PI(double): " + dValue);
+		
+		String firstName = "Raghunath";
+		System.out.println("First name(String): " + firstName);
+		
+		boolean isSwitchOn = false;
+		System.out.println("isSwitchOn(boolean): " + isSwitchOn);
+		
 		System.out.println("All literals in Java");
 		
 		

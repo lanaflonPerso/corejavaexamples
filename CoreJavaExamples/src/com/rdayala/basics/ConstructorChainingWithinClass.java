@@ -38,7 +38,7 @@ class Prg
     }
 }
 
-public class ConstructorMultipleExample {
+public class ConstructorChainingWithinClass {
 
 	public static void main(String s[])
     {
