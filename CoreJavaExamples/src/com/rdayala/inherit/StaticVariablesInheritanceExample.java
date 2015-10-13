@@ -8,6 +8,23 @@ package com.rdayala.inherit;
  * running Application in single Classloader.
  */
 
+// Static members are also inherited to sub classes.
+
+class XYZ
+{
+    static int i = 10;
+ 
+    static void method()
+    {
+        System.out.println("Base class Static Method!");
+    }
+}
+
+class PQR extends XYZ
+{
+ 
+}
+
 class Super 
 {
     static int i = 90;
@@ -34,5 +51,9 @@ public class StaticVariablesInheritanceExample
         
         System.out.println(Child1.getI());//same change is reflected for Child1 i.e 189
         System.out.println(Child2.getI());//same change is reflected for Child2 i.e 189
+        
+        PQR.method();       //Calling inherited static method     
+        
+        System.out.println(PQR.i);    //printing inherited static field.
     }
 }
