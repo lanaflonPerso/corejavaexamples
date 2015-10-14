@@ -25,3 +25,7 @@ http://www.mkyong.com/ - one of the best one, includes android as well
 http://beginnersbook.com/
 
 http://viralpatel.net/blogs/static-import-java-example-tutorial/
+
+http://examplesofjava.com/exceptions/user-defined-exception-example.html
+
+http://www.javaspecialists.eu/archive/archive.jsp
