@@ -1,3 +1,9 @@
+Coding Guidelines Reference:
+
+http://www.iwombat.com/standards/JavaStyleGuide.html
+
+----------------------------------------------------------------
+
 http://www.javawithus.com/programs/
 
 http://www.java-examples.com/
