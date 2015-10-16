@@ -10,10 +10,10 @@ public class LiteralsExample {
 		
 		short shLit = 15; // short literal
 		
-		int octLit = 0400; //octal equivalent of decimal 256
-		int hexLit = 0x100; //hexadecimal equivalent of decimal 256
-		int decLit = 256; // decimal 256		
-		int binVal = 0b11010; // The number 26, in binary. Should only used with 1.7 or higher versions
+		int decLit = 256; // decimal literal 256
+		int octLit = 0400; //octal literal equivalent of decimal 256
+		int hexLit = 0x100; //hexadecimal literal equivalent of decimal 256
+		int binLit = 0b11010; // binary literal. The number 26, in binary. Should only used with 1.7 or higher versions
 		
 		// float f = 89.0; // ERROR - Type mismatch: cannot convert from double to float
 		float ff = 89.0f; //OK, use suffix 'f' to indicate Float

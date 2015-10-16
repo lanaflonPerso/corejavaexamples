@@ -34,4 +34,8 @@ http://viralpatel.net/blogs/static-import-java-example-tutorial/
 
 http://examplesofjava.com/exceptions/user-defined-exception-example.html
 
+http://java2s.com/Tutorials/Java/String/Centers_a_String_for_a_large_size.htm
+
+http://www.javatpoint.com/java-string
+
 http://www.javaspecialists.eu/archive/archive.jsp
