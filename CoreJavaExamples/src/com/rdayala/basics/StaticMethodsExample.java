@@ -19,7 +19,7 @@ public class StaticMethodsExample {
 		System.out.println("this is static variable value : " + name);
 	}
 	
-	public void printSomething() {
+	public void printSomething() {				
 		System.out.println("PrintSomething method : " + this.name);
 		this.name = "XYZ";
 		this.StaticMethod(); // calling static method

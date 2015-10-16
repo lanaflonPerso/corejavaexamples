@@ -39,3 +39,11 @@ http://java2s.com/Tutorials/Java/String/Centers_a_String_for_a_large_size.htm
 http://www.javatpoint.com/java-string
 
 http://www.javaspecialists.eu/archive/archive.jsp
+
+http://www.codejava.net/java-se/jdbc -- for good examples with projects
+
+http://stackoverflow.com/questions/2784514/sort-arraylist-of-custom-objects-by-property - comparable, comparator examples
+
+http://javahash.com/transform-xml-with-xstl-using-java/
+
+http://mrjoelkemp.com/2011/11/java-hashset-with-custom-objects/
