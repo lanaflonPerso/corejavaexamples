@@ -1,0 +1,47 @@
+
+package : java.util
+
+A collection is an object that is composed of elements --> elements can be either primitive or references to objects.
+
+Array:
+	collection of elements
+	same type, and both primitive and reference/object type elements
+	stored contiguous in memory
+	random access
+	
+	Array name stores a reference to the beginning of the space allocated.
+	
+	drawbacks:
+		fixed size
+		space must be allocated before any elements stored
+		insertions/deletions not possible or involve lot of code
+		
+Collection classes:
+
+Collection classes can only handle reference types. [This is why we got autoboxing/unboxing concept for primitive types]
+
+	Each instance of a collection class is a collection of elements.
+	Each element is an object.
+	
+
+Storage structures for Collection classes:
+
+	Contiguous-collection class: 	ArrayList
+	
+	Linked-collection class : LinkedList (Single-linkedlist, double-linkedlist)
+	
+
+Java colleciton framework has few abstract classes:
+	
+		AbstractCollection
+		AbstractList
+		AbstractSet
+		
+
+The Java Collection Framework:
+
+	Top of the hierarchy : 2 interfaces -> Collection and Map
+	
+
+	
+	

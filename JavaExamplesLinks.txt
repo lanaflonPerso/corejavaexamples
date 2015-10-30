@@ -4,6 +4,16 @@ http://www.iwombat.com/standards/JavaStyleGuide.html
 
 ----------------------------------------------------------------
 
+http://java2s.com/Book/Java/CatalogJava.htm
+
+http://java2s.com/Book/Oracle/CatalogOracle.htm
+
+http://programmingbydoing.com/
+
+http://home.cogeco.ca/~ve3ll/jatutor0.htm#
+
+http://web.stanford.edu/class/cs108/handouts141/ stanford java slides
+
 http://www.javawithus.com/programs/
 
 http://www.java-examples.com/

@@ -3,9 +3,16 @@ package com.rdayala.hello;
 import java.util.Scanner;
 
 public class HelloWorld {
+	
+	static void someMethod() {
+		int x = 10;
+		System.out.println(x);
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Hello, World!");
+		
+		someMethod();
 		
 		// to get platform independent line separator
 		// System.getProperty("line.separator");
@@ -17,13 +24,7 @@ public class HelloWorld {
 		newLine.append("def");
 		String output=newLine.toString();
 		System.out.println(output);
-		
-		// Reverse a string without using split() or related methods
 
-//		Scanner sc = new Scanner(System.in);
-//		String word = sc.nextLine();
-//
-//		stringReverse(word);
 	}
 
 	static void stringReverse(String word) {

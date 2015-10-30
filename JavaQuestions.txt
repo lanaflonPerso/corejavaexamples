@@ -1,0 +1,20 @@
+[LOCAL VARIABLES : inside method] - final
+
+[OUTER CLASSES] - default, public, final
+
+
+
+
+[LOCAL VARIABLES] Why final is the only modifier for the local variable in java?
+
+In short - none of the other modifiers make sense in that context. Saying a variable is public, private, protected, or static simply doesn't make sense in the context of a local variable that will go out of scope (and be garbage collected) once the method exits. Those modifiers are intended for class fields (and methods), to define their visibility (or in the case of static, their scope).
+
+final is the only one that makes sense in the context of a local variable because all it means is that the variable cannot be modified after its initial declaration, it has nothing to do with access control.
+
+[CLASS - OUTER CLASS] Why can't a Java class be declared as static?
+
+In Java, the static keyword(defines the scope) typically flags a method or field as existing not once per instance of a class, but once ever. A class exists once anyway so in effect, all classes are "static" in this way and all objects are instances of classes.
+
+static does have a meaning for inner classes, which is entirely different. 
+An inner class is by default not static, which is to say that each instance of a class that has a nested class gets its own copy of the nested class. This is how you can reference "this" in the class, and why you can't declare static methods or fields, doesn't make any sense, since each instance of the outer class has its own copy. A "static" nested class (by definition a true "inner" class) means there is only one copy of that class.
+
