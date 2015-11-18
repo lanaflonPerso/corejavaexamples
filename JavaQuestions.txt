@@ -1,3 +1,66 @@
+Q : What is the use of package in java?
+
+Packages in Java are the way to organize files when a project has many modules. One important benefit of such an organization of files in different modules is that it helps resolving naming conflicts i.e., different packages may have classes with the same name. Obviously this is not possible if we don’t have the concept of packages. In that we need to find different names for all the classes, which may not be desirable in every case. Plus, packages improve making the application more modular.
+
+Q : Method overriding rules in JAVA
+
+1) The signature including the number and type of arguments for the overriding method should be same.
+2) The return type should be same.
+3) [Inheritance] The access modifier for overriden method in child class should not be more limiting than superclass method.
+4) [Inheritance, exceptions] Superclass method DOES NOT DECLARE AN EXCEPTOIN
+	Rule 1: If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception.
+	Rule 2: If the superclass method does not declare an exception, subclass overridden method can declare unchecked exception. 
+5) [Inheritance, exceptions] Superclass method DECLARES an EXCEPTION
+	Rule: If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+6) Static methods in parent class can not be overriden in sub-class. Sub-class method does method hiding of the parent class method. Run time polymorphism will not work.
+
+
+
+Q :  How to write Java documentation ?
+
+Included in Sun’s Java Development Kit (JDK) is a program called javadoc that processes Java code files and produces external documentation, in the form of HTML files, for your Java programs.
+
+Tag 							Used for 				Purpose
+-------------------------------------------------------------------------------
+@author name 					Interfaces,
+								Classes,				Indicates the author(s) of a given piece of code.
+														One tag per author should be used.
+
+@deprecated 					Interfaces,
+								Classes,
+								Member Functions		Indicates that the API for the class… has been deprecated and therefore should not be used any more.
+
+@exception name description 	Member Functions		Describes the exceptions that a member function throws. You should use one tag per exception and give the full
+														class name for the exception.
+
+@param name description 		Member Functions		Used to describe a parameter passed to a member function, including its type/class and its usage.
+														Use one tag per parameter.
+
+@return description 			Member Functions		Describes the return value, if any, of a member function. You should indicate the type/class and 
+														the potential use(s) of the return value.
+
+@since 							Interfaces,
+								Classes, 
+								Member Functions		Indicates how long the item has existed, i.e. since JDK 1.1
+
+@see ClassName 					Classes,
+								Interfaces,
+								Member Functions, 
+								Fields					Generates a hypertext link in the documentation to the specified class. 
+														You can, and probably should, use a fully qualified class name.
+@see 
+ClassName#memberfunctionName	Classes,
+								Interfaces,
+								Member Functions, 
+								Fields					Generates a hypertext link in the documentation to the specified member function. 
+														You can, and probably should, use a fully qualified class name.
+
+@version text 					Classes,
+								Interfaces				Indicates the version information for a given piece of code.
+								
+-------------------------------------------------------------------------------
+
+
 [LOCAL VARIABLES : inside method] - final
 
 [OUTER CLASSES] - default, public, final

@@ -1,3 +1,10 @@
+Inserting null values in TreeSet and HashSet:
+
+For an Empty TreeSet as first element null value can be inserted but after inserting that first value if we are trying to insert any other objects then we will get NullPointerException.
+For an non empty TreeSet if we are trying to inser null value, at run time u will get nullPointerException. This is because when some elements are there in the tree then before inserting any object it compares the new object to the existing ones by the compareTo() method and decides where to put the new object. So when inserting null the compareTo() method internally throws  NullPointerException.
+
+For HashSet only one null value insertion is possible. When we try to add more null values the add method returns false and null is not added.
+
 
 package : java.util
 

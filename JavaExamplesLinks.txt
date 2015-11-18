@@ -2,7 +2,19 @@ Coding Guidelines Reference:
 
 http://www.iwombat.com/standards/JavaStyleGuide.html
 
+http://www.javaexperience.com best for all topics
+http://newjavafaqs.blogspot.in/p/core-java.html -- just FAQs, good one
+
+http://howtodoinjava.com - one of the best for everything from core java to frameworks.
+
 ----------------------------------------------------------------
+http://what-when-how.com/Tutorial/Java-SE-6/Java-SE-6-index.html
+
+http://geekexplains.blogspot.in/2008/05/archives-from-category-java-10.html
+
+http://javabynataraj.blogspot.in/ - ameerpet materials
+
+http://instanceofjava.com
 
 http://java2s.com/Book/Java/CatalogJava.htm
 
