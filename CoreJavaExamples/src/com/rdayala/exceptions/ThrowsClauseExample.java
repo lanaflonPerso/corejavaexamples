@@ -26,7 +26,7 @@ class ThrowExample {
 }
 
 // [HOW TO HANDLE] 2 ways :
-// a. Using throws clause at main() method to indicate that am using a method whcih throws exceptions\
+// a. Using throws clause at main() method to indicate that am using a method which throws exceptions
 // b. Enclosing the method call in try-catch block
 
 public class ThrowsClauseExample {

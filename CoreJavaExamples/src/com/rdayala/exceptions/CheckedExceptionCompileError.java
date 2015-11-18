@@ -11,7 +11,7 @@ import java.io.*;
 // If we remove, throws FileNotFoundException , the below program gives compile error.
 // [NOTE] Checked exception - a method which specifies that it throws an exception. make sure
 // you handle the exception in try-catch block or include throws clause at your method declaration.
-//If not handled properly, they will give compile time error.
+// If not handled properly, they will give compile time error.
 
 // ClassNotFoundException
 // IllegalAccessException

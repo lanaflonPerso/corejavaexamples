@@ -59,12 +59,12 @@ class Person {
 
 public class UserDefinedException {
 	public static void main(String[] args) {
-//		try{
+		try{
 			Person p1 = new Person(200, "ABC");
-//		}
-//		catch(OutOfRangeException ex) {
-//			System.out.println(ex);
-//			ex.printStackTrace();
-//		}
+		}
+		catch(OutOfRangeException ex) {
+			System.out.println(ex);
+			// ex.printStackTrace();
+		}
 	}
 }

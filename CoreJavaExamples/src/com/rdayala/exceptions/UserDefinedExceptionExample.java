@@ -17,6 +17,7 @@ class MyException extends Exception {
 	}
 
 	MyException(String msg) {
+		super(msg);
 		this.msg = msg;
 	}
 
@@ -40,7 +41,7 @@ public class UserDefinedExceptionExample {
 
 		} catch (Exception e) {
 			System.out.println(e);
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 	}
 }
