@@ -8,6 +8,9 @@ http://newjavafaqs.blogspot.in/p/core-java.html -- just FAQs, good one
 http://howtodoinjava.com - one of the best for everything from core java to frameworks.
 
 ----------------------------------------------------------------
+
+http://javaconceptoftheday.com/
+
 http://what-when-how.com/Tutorial/Java-SE-6/Java-SE-6-index.html
 
 http://geekexplains.blogspot.in/2008/05/archives-from-category-java-10.html
