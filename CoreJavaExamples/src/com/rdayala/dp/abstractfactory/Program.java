@@ -3,12 +3,12 @@ package com.rdayala.dp.abstractfactory;
 public class Program {
 	public static void main(String[] args) {
 		
-		ThemeFactory theme = new ThemeFactory();
-		
-		theme.createTheme("yellow");		
+		Theme theme = ThemeFactory.getTheme("yellow");
+		theme.buildTheme();
 		theme.drawTheme();
 		
-		theme.createTheme("pink");
+		theme = ThemeFactory.getTheme("pink");
+		theme.buildTheme();
 		theme.drawTheme();
 	}
 
