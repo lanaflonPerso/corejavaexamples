@@ -11,10 +11,11 @@ public class StringClassDemo {
 		String s5 = new String("Hello").intern(); // now it is interned, it will check in string pool
 		String s6 = new String("World").intern();
 		
-		System.out.println("are the strings point to same ref? " + (s1 == s2)); // true
+		System.out.println("are the strings point to same ref (s1 == s2) ? " + (s1 == s2)); // true
 		System.out.println("Is s1 and s3 equal : " + (s1 == s3)); // false
-		System.out.println("Is s1 and s4 equal : " + (s1 == s4)); // false
+		System.out.println("Is s3 and s4 equal : " + (s3 == s4)); // false
 		System.out.println("Is s1 and s5 equal : " + (s1 == s5)); // true
+		System.out.println("Is s3 and s5 equal : " + (s3 == s5)); // true
 		System.out.println(s6);
 		
 	}
