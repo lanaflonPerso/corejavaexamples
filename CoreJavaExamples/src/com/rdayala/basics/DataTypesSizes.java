@@ -27,9 +27,7 @@ public class DataTypesSizes {
 		System.out.println("Integer size (bytes): " + Integer.BYTES);
 		System.out.println("Long Size (bytes): " + Long.BYTES);
 		System.out.println("Float Size (bytes): " + Float.BYTES);
-		System.out.println("Double Size (bytes): " + Double.BYTES);	
-		
-
+		System.out.println("Double Size (bytes): " + Double.BYTES);
 	}
 
 }
